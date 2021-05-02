@@ -21,9 +21,10 @@ const Home = () => {
                     <ul>
                        <li><a className="nav-link "> <Link to="/">Home</Link></a></li>
                        <li><a className="nav-link "> <Link to="/about">About</Link></a></li>
-                       <li><a className="nav-link "> <Link to="resume">Resume</Link></a></li>
-                       <li><a className="nav-link "> <Link to="project">Project</Link></a></li>
-                       <li><a className="nav-link "> <Link to="contact">Contact</Link></a></li>
+                       <li><a className="nav-link "> <Link to="/resume">Resume</Link></a></li>
+                       <li><a className="nav-link "> <Link to="/blogs">Blogs</Link></a></li>
+                       <li><a className="nav-link "> <Link to="/project">Project</Link></a></li>
+                       <li><a className="nav-link "> <Link to="/contact">Contact</Link></a></li>
                         
                     </ul>
                    

@@ -5,12 +5,10 @@
     left: 0;
     top: 0;
     right: 0;
-    background: #f27126;
+    background: #131211a6;
   }
   
-  #header.headertop .socialLinks, #header.headertop h2, #about.resume-download {
-    display: none;
-  }
+ 
   
   #header.headertop h1 {
     margin-right: auto;
@@ -136,7 +134,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: #f27126;
+    background: #161515ea;
     transition: 0.3s;
     z-index: 999;
     margin-top: 0;

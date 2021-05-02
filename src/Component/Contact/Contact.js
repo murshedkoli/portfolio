@@ -105,9 +105,9 @@ const sendmail= (e)=>{
                             <div className="text-center">
                                 <h1 style={{ fontSize: 40 }}>Send Message</h1>
                             </div>
-                            <div className="contact-form" style={{ maxWidth: 450, margin: '0 auto' }}>
-                                <div className="form-mid">
-                                    <form onSubmit={sendmail} >
+                            <div className="contact-form" style={{ maxWidth: 450, margin: '0 auto', backgroundColor:'#383534d5' }}>
+                                <div className="form-mid" style={{  backgroundColor:'#383534d5' }}>
+                                    <form  onSubmit={sendmail} >
                                         <div className="field">
                                             <input onChange={handleOnChange} type="text" className="form-control" name="name" id="Name" placeholder="Name" required />
                                         </div>
