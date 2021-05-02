@@ -34,7 +34,7 @@ const About = () => {
                                 <div className="col-lg-6">
                                     <ul>
                                         <li><i className="bi bi-chevron-right" /> <strong>Birthday:</strong> <span>1 April 1997</span></li>
-                                        <li><i className="bi bi-chevron-right" /> <strong>Website:</strong> <span>www.murshedkoli.com</span></li>
+                                        <li><i className="bi bi-chevron-right" /> <strong>Website:</strong> <span>https://murshedkoli-portfolio.web.app</span></li>
                                         <li><i className="bi bi-chevron-right" /> <strong>Phone:</strong> <span>+880 1781 981 486</span></li>
                                         <li><i className="bi bi-chevron-right" /> <strong>City:</strong> <span>Brahmanbaria, Bangladesh</span></li>
                                     </ul>
