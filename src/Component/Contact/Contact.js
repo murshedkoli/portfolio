@@ -7,6 +7,8 @@ import Navber from '../Navber/Navber';
 
 const Contact = () => {
 
+    document.title="Contact Me | Morshed Al Main - Portfolio"
+
 const [formData, setFormData] = useState({});
 
     const handleOnChange = (e)=>{

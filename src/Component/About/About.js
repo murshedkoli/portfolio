@@ -8,6 +8,9 @@ import { ProgressBar } from 'react-bootstrap';
 
 
 const About = () => {
+
+    document.title="About Me | Morshed Al Main - Portfolio"
+
     return (
         <div>
             <Navber />
@@ -55,13 +58,13 @@ const About = () => {
                         <div className="col-lg-3 col-md-6">
                             <div className="count-box">
                                 <i className="bi bi-emoji-smile" />
-                                <span data-purecounter-duration="0" data-purecounter-end="9001" class="purecounter">07</span>                            <p>Happy Clients</p>
+                                <span data-purecounter-duration="0" data-purecounter-end="9001" class="purecounter">07+</span>                            <p>Happy Clients</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
                             <div className="count-box">
                                 <i className="bi bi-journal-richtext" />
-                                <span data-purecounter-start="0"  data-purecounter-end="9001"  class="purecounter">15</span>                            <p>Projects</p>
+                                <span data-purecounter-start="0"  data-purecounter-end="9001"  class="purecounter">15+</span>                            <p>Projects</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">

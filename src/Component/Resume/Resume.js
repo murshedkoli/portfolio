@@ -2,6 +2,9 @@ import React from 'react';
 import Navber from '../Navber/Navber';
 
 const Resume = () => {
+
+    document.title="Resume | Morshed Al Main - Portfolio"
+
     return (
         <div>
             <Navber/>
@@ -17,47 +20,45 @@ const Resume = () => {
         <div class="col-lg-6">
           <h3 class="resume-title">Sumary</h3>
           <div class="resume-item pb-0">
-            <h4>Alice Barkley</h4>
-            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+            <h4>Morshed Al Main</h4>
+            <p><em>Creative Front-End Developer, I Always want to explore new experience, Development is not just a profession for me, it's a means for me to feel good and spend time.</em></p>
             <p>
             <ul>
-              <li>Portland par 127,Orlando, FL</li>
-              <li>(123) 456-7891</li>
-              <li>alice.barkley@example.com</li>
+              <li>Kalikaccha, Sarail, Brahmanbaria.</li>
+              <li>(+880) 1781 981 486</li>
+              <li>murshedkoli@gmail.com</li>
             </ul>
             </p>
           </div>
 
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-            <h5>2015 - 2016</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <h4>Bachelor Of Business Administration</h4>
+            <h5>2016 - Present</h5>
+            <p><em>Brahmanbaria Government College</em></p>
+            <p>Department of Accounting, Brahmanbaria Govt. College, <br/> Brahmanbaria, Bangladesh</p>
           </div>
           <div class="resume-item">
-            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-            <h5>2010 - 2014</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <h4>Higer Secondary School Certificate</h4>
+            <h5>2013 - 2015</h5>
+            <p><em>Kazi Shafiqul Islam University College</em></p>
+            <p>Department of Business Management, KSIUC, Bijoy Nagar, <br/> Brahmanbaria, Bangladesh</p>
           </div>
         </div>
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
-            <h4>Senior graphic design specialist</h4>
-            <h5>2019 - Present</h5>
-            <p><em>Experion, New York, NY </em></p>
+            <h4>Computer Trainer</h4>
+            <h5>2017 - Present</h5>
+            <p><em>Ababil It &amp; Computer Training Center </em></p>
             <p>
             <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              <li>Provided training in computer office application course ‍and Web Design Course.</li>
+              
             </ul>
             </p>
           </div>
-          <div class="resume-item">
+          {/* <div class="resume-item">
             <h4>Graphic design specialist</h4>
             <h5>2017 - 2018</h5>
             <p><em>Stepping Stone Advertising, New York, NY</em></p>
@@ -69,7 +70,7 @@ const Resume = () => {
               <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
             </ul>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 

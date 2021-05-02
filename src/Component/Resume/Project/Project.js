@@ -4,6 +4,8 @@ import { Card, ListGroup } from 'react-bootstrap';
 import projects from '../../../Data/projectData';
 
 const Project = () => {
+
+    document.title="Projcet Page | Morshed Al Main - Portfolio"
     return (
         <div>
             <Navber />

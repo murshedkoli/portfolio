@@ -8,8 +8,12 @@ import { Link } from 'react-router-dom';
 
 
 const Home = () => {
+
+    document.title="Home Page | Morshed Al Main - Portfolio"
+
     return (
-        <header id={style.header} style={{paddingLeft:'100px'}}>
+       <div className="container">
+            <header id={style.header} >
             <div className={style.container}>
                 <h1><a href="index.html">Morshed Al Main</a></h1>
                 <h2>I'm a <span>FrontEnd Developer</span> from Bangladesh</h2>
@@ -37,6 +41,7 @@ const Home = () => {
                 
             </div>
         </header>
+       </div>
 
     );
 };
