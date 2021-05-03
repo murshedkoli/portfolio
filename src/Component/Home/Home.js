@@ -15,7 +15,7 @@ const Home = () => {
        <div className="container">
             <header id={style.header} >
             <div className={style.container}>
-                <h1><a href="index.html">Morshed Al Main</a></h1>
+                <h1><a ><Link to="/">Morshed Al Main</Link></a></h1>
                 <h2>I'm a <span>FrontEnd Developer</span> from Bangladesh</h2>
                 <nav id={style.navbar} className={style.navbar}>
                     <ul>
